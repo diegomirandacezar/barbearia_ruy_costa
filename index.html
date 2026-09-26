@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Tags Obrigatórias -->
+  <title>Barbearia Ruy Costa | Barbearia na Vila da Saúde - São Paulo</title>
+  <meta name="description" content="Barbearia Ruy Costa na Vila da Saúde, São Paulo. Cortes masculinos, atendimento personalizado e experiência diferenciada. Entre em contato pelo WhatsApp.">
+  <meta name="keywords" content="Barbearia, Barbearia Vila da Saúde, Ruy Costa, Corte Masculino, Barba, São Paulo, Miguel Estefno">
+  <meta name="author" content="Barbearia Ruy Costa">
+  <link rel="canonical" href="https://barbeariaruycosta.com.br/">
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="business.business">
+  <meta property="og:title" content="Barbearia Ruy Costa | Barbearia na Vila da Saúde - São Paulo">
+  <meta property="og:description" content="Cortes masculinos de precisão, atendimento exclusivo e ambiente premium na Vila da Saúde. Agende seu horário pelo WhatsApp.">
+  <meta property="og:image" content="assets/images/logo.jpeg">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpeg">
+
+  <!-- Google Fonts: Cinzel & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              darkest: '#050505',
+              dark: '#0D0D0D',
+              card: '#151515',
+              cardHover: '#1c1c1c',
+              border: '#242424',
+              gold: '#D4AF37',
+              goldLight: '#F3E5AB',
+              goldDark: '#996D13',
+              gray: '#9CA3AF'
+            }
+          },
+          fontFamily: {
+            display: ['Cinzel', 'serif'],
+            sans: ['Montserrat', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Estilos Customizados -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema.org Dados Estruturados (LocalBusiness / BarberShop) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarberShop",
+    "name": "Barbearia Ruy Costa",
+    "image": "assets/images/logo.jpeg",
+    "telephone": "+5511987026977",
+    "priceRange": "R$ 20–40",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Miguel Estefno, 2014",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "postalCode": "04301-001",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -23.6267,
+      "longitude": -46.6385
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "4",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
+  }
+  </script>
+</head>
+<body class="bg-[#050505] text-[#E5E5E5] font-sans antialiased">
+
+  <!-- ========================================================================
+       1. HEADER / NAVBAR
+       ======================================================================== -->
+  <header id="main-navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-transparent py-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between">
+        
+        <!-- Logo -->
+        <a href="#inicio" class="flex items-center space-x-3 group" aria-label="Ir para início">
+          <img src="assets/images/logo.jpeg" alt="Logo Barbearia Ruy Costa" class="w-11 h-11 rounded-full border border-[#D4AF37]/50 shadow-md group-hover:scale-105 transition-transform duration-300">
+          <div class="flex flex-col">
+            <span class="font-display font-black text-lg md:text-xl tracking-wider text-white group-hover:text-[#D4AF37] transition-colors">BARBEARIA</span>
+            <span class="text-[10px] tracking-[0.25em] text-[#D4AF37] font-semibold -mt-1">RUY COSTA</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden lg:flex items-center space-x-8" aria-label="Navegação Principal">
+          <a href="#inicio" class="nav-link text-sm tracking-wide text-gray-300 hover:text-[#D4AF37] transition-colors">Início</a>
+          <a href="#sobre" class="nav-link text-sm tracking-wide text-gray-300 hover:text-[#D4AF37] transition-colors">Sobre</a>
+          <a href="#servicos" class="nav-link text-sm tracking-wide text-gray-300 hover:text-[#D4AF37] transition-colors">Serviços</a>
+          <a href="#diferenciais" class="nav-link text-sm tracking-wide text-gray-300 hover:text-[#D4AF37] transition-colors">Diferenciais</a>
+          <a href="#avaliacoes" class="nav-link text-sm tracking-wide text-gray-300 hover:text-[#D4AF37] transition-colors">Avaliações</a>
+          <a href="#galeria" class="nav-link text-sm tracking-wide text-gray-300 hover:text-[#D4AF37] transition-colors">Galeria</a>
+          <a href="#localizacao" class="nav-link text-sm tracking-wide text-gray-300 hover:text-[#D4AF37] transition-colors">Localização</a>
+          <a href="#contato" class="nav-link text-sm tracking-wide text-gray-300 hover:text-[#D4AF37] transition-colors">Contato</a>
+        </nav>
+
+        <!-- CTA Header -->
+        <div class="hidden sm:flex items-center">
+          <button type="button" class="btn-gold px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider open-agendamento-modal" data-open-agendamento-modal>
+            Agendar Horário
+          </button>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <div class="lg:hidden flex items-center">
+          <button id="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir Menu" class="p-2 rounded-lg text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-[#D4AF37]">
+            <svg id="hamburger-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+            <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-[#0D0D0D]/95 border-b border-[#242424] px-4 pt-3 pb-6 space-y-3 backdrop-blur-xl">
+      <a href="#inicio" class="mobile-nav-link block py-2 text-base text-gray-200 hover:text-[#D4AF37] border-b border-white/5">Início</a>
+      <a href="#sobre" class="mobile-nav-link block py-2 text-base text-gray-200 hover:text-[#D4AF37] border-b border-white/5">Sobre</a>
+      <a href="#servicos" class="mobile-nav-link block py-2 text-base text-gray-200 hover:text-[#D4AF37] border-b border-white/5">Serviços</a>
+      <a href="#diferenciais" class="mobile-nav-link block py-2 text-base text-gray-200 hover:text-[#D4AF37] border-b border-white/5">Diferenciais</a>
+      <a href="#avaliacoes" class="mobile-nav-link block py-2 text-base text-gray-200 hover:text-[#D4AF37] border-b border-white/5">Avaliações</a>
+      <a href="#galeria" class="mobile-nav-link block py-2 text-base text-gray-200 hover:text-[#D4AF37] border-b border-white/5">Galeria</a>
+      <a href="#localizacao" class="mobile-nav-link block py-2 text-base text-gray-200 hover:text-[#D4AF37] border-b border-white/5">Localização</a>
+      <a href="#contato" class="mobile-nav-link block py-2 text-base text-gray-200 hover:text-[#D4AF37]">Contato</a>
+      <div class="pt-2">
+        <button type="button" class="btn-gold w-full text-center py-3 rounded-lg text-sm font-bold uppercase tracking-wider block open-agendamento-modal" data-open-agendamento-modal>
+          Agendar Horário
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================================
+         2. HERO SECTION
+         ======================================================================== -->
+    <section id="inicio" class="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden">
+      <!-- Imagem de Fundo com Tratamento Dark Editorial -->
+      <div class="hero-editorial-wrapper">
+        <img src="assets/images/corte.jpg" alt="Barbearia Ruy Costa Ambiente" class="hero-editorial-image">
+        <div class="hero-editorial-overlay"></div>
+      </div>
+
+      <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <!-- Tag Superior -->
+        <div class="inline-flex items-center space-x-2 bg-[#151515] border border-[#242424] px-4 py-1.5 rounded-full mb-6 reveal-init">
+          <span class="w-2 h-2 rounded-full bg-[#D4AF37] animate-pulse"></span>
+          <span class="text-xs uppercase tracking-[0.2em] text-[#D4AF37] font-semibold">BARBEARIA RUY COSTA</span>
+          <span class="text-gray-500">•</span>
+          <span class="text-xs text-gray-400 font-medium">Vila da Saúde • São Paulo</span>
+        </div>
+
+        <!-- Título Principal H1 Obrigatório -->
+        <h1 class="font-display text-4xl sm:text-6xl md:text-7xl font-black text-white tracking-tight uppercase leading-none mb-6 reveal-init" style="transition-delay: 150ms;">
+          ESTILO QUE MARCA <br class="hidden sm:inline">
+          <span class="gold-gradient-text">PRESENÇA.</span>
+        </h1>
+
+        <!-- Subtítulo -->
+        <p class="max-w-2xl mx-auto text-base sm:text-xl text-gray-300 font-light leading-relaxed mb-10 reveal-init" style="transition-delay: 300ms;">
+          Mais do que um corte. Uma experiência completa de estilo, qualidade e atendimento personalizado.
+        </p>
+
+        <!-- Botões de Ação do Hero -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 reveal-init" style="transition-delay: 450ms;">
+          <button type="button" class="btn-gold w-full sm:w-auto px-8 py-4 rounded-full text-sm font-bold uppercase tracking-wider flex items-center justify-center space-x-3 group open-agendamento-modal" data-open-agendamento-modal>
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+            <span>AGENDAR HORÁRIO</span>
+          </button>
+
+          <a href="#sobre" class="btn-outline-gold w-full sm:w-auto px-8 py-4 rounded-full text-sm font-semibold uppercase tracking-wider">
+            CONHECER A BARBEARIA
+          </a>
+        </div>
+
+        <!-- Indicadores de Destaque -->
+        <div class="mt-14 grid grid-cols-2 md:grid-cols-4 gap-4 border-t border-[#242424] pt-8 max-w-3xl mx-auto reveal-init" style="transition-delay: 600ms;">
+          <div>
+            <p class="font-display text-2xl font-bold text-[#D4AF37]">5,0 ★</p>
+            <p class="text-xs text-gray-400 mt-1 uppercase tracking-wider">Google Reviews</p>
+          </div>
+          <div>
+            <p class="font-display text-2xl font-bold text-white">100%</p>
+            <p class="text-xs text-gray-400 mt-1 uppercase tracking-wider">Dedicação</p>
+          </div>
+          <div>
+            <p class="font-display text-2xl font-bold text-[#D4AF37]">2013</p>
+            <p class="text-xs text-gray-400 mt-1 uppercase tracking-wider">Tradição</p>
+          </div>
+          <div>
+            <p class="font-display text-2xl font-bold text-white">SP</p>
+            <p class="text-xs text-gray-400 mt-1 uppercase tracking-wider">Vila da Saúde</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. SOBRE A BARBEARIA
+         ======================================================================== -->
+    <section id="sobre" class="py-24 bg-[#0D0D0D] border-t border-b border-[#242424] relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          
+          <!-- Coluna Esquerda: Conteúdo e Estatísticas -->
+          <div class="reveal-init">
+            <span class="text-xs font-bold text-[#D4AF37] uppercase tracking-[0.25em]">TRADIÇÃO & EXCELÊNCIA</span>
+            <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-black text-white uppercase mt-2 mb-6 leading-tight">
+              MAIS DO QUE UM CORTE.
+            </h2>
+            
+            <p class="text-base sm:text-lg text-gray-300 leading-relaxed font-light mb-8">
+              A Barbearia Ruy Costa se destaca pela qualidade dos cortes, atenção aos detalhes e atendimento personalizado. Clientes destacam a excelência no serviço, o ambiente agradável e a experiência proporcionada pelo Ruy.
+            </p>
+
+            <!-- Estatísticas Reais -->
+            <div class="grid grid-cols-2 gap-4 mb-8">
+              <div class="premium-card p-5 rounded-xl border border-[#242424]">
+                <div class="flex items-baseline space-x-2">
+                  <span id="counter-rating" class="font-display text-4xl font-black text-[#D4AF37]">5,0</span>
+                  <span class="text-yellow-500 text-lg">★★★★★</span>
+                </div>
+                <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mt-1">AVALIAÇÃO NO GOOGLE</p>
+              </div>
+
+              <div class="premium-card p-5 rounded-xl border border-[#242424]">
+                <div class="flex items-baseline space-x-2">
+                  <span id="counter-reviews" class="font-display text-4xl font-black text-white">4</span>
+                  <span class="text-xs text-gray-400">clientes</span>
+                </div>
+                <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mt-1">AVALIAÇÕES</p>
+              </div>
+            </div>
+
+            <!-- Comodidades e Facilidades Reais -->
+            <div class="border-t border-[#242424] pt-6">
+              <p class="text-xs uppercase tracking-wider font-semibold text-gray-400 mb-4">Comodidades & Pagamentos</p>
+              <div class="flex flex-wrap gap-2.5">
+                <span class="inline-flex items-center text-xs bg-[#151515] border border-[#282828] px-3.5 py-1.5 rounded-full text-gray-300">
+                  <span class="mr-1.5 text-[#D4AF37]">✓</span> Banheiro
+                </span>
+                <span class="inline-flex items-center text-xs bg-[#151515] border border-[#282828] px-3.5 py-1.5 rounded-full text-gray-300">
+                  <span class="mr-1.5 text-[#D4AF37]">✓</span> Bom para ir com crianças
+                </span>
+                <span class="inline-flex items-center text-xs bg-[#151515] border border-[#282828] px-3.5 py-1.5 rounded-full text-gray-300">
+                  <span class="mr-1.5 text-[#D4AF37]">✓</span> Cartões de Crédito e Débito
+                </span>
+                <span class="inline-flex items-center text-xs bg-[#151515] border border-[#282828] px-3.5 py-1.5 rounded-full text-gray-300">
+                  <span class="mr-1.5 text-[#D4AF37]">✓</span> Pagamento por celular (NFC)
+                </span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Coluna Direita: Imagem do Ambiente Real com Tratamento Dark Editorial -->
+          <div class="relative reveal-init" style="transition-delay: 200ms;">
+            <div class="editorial-image-container group">
+              <img src="assets/images/interno.jpeg" alt="Espaço Interno da Barbearia Ruy Costa" class="editorial-image" loading="lazy">
+              <!-- Legenda Integrada com Proteção de Contraste -->
+              <div class="editorial-image-caption">
+                <p class="font-display text-lg sm:text-xl font-bold text-white tracking-wide">Espaço Autêntico & Confortável</p>
+                <p class="text-xs text-gray-300 mt-1">Cadeira clássica, espelho amplo e atendimento exclusivo.</p>
+              </div>
+            </div>
+            <!-- Detalhe decorativo com linha dourada refinada -->
+            <div class="hidden sm:block absolute -top-3 -right-3 w-28 h-28 border-t-2 border-r-2 border-[#D4AF37]/35 rounded-tr-xl pointer-events-none"></div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. SERVIÇOS
+         ======================================================================== -->
+    <section id="servicos" class="py-24 bg-[#050505] relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Cabeçalho da Seção -->
+        <div class="text-center max-w-3xl mx-auto mb-16 reveal-init">
+          <span class="text-xs font-bold text-[#D4AF37] uppercase tracking-[0.25em]">NOSSOS CUIDADOS</span>
+          <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-black text-white uppercase mt-2 mb-4">
+            SERVIÇOS DE ALTA PRECISÃO
+          </h2>
+          <p class="text-sm sm:text-base text-gray-400">
+            Cada serviço é executado com dedicação exclusiva, respeitando o formato do seu rosto e seu estilo de vida.
+          </p>
+        </div>
+
+        <!-- Grid de Cards de Serviços -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <!-- Card 1 -->
+          <div class="premium-card rounded-2xl p-8 flex flex-col justify-between reveal-init">
+            <div>
+              <div class="w-14 h-14 rounded-xl bg-[#0D0D0D] border border-[#D4AF37]/30 flex items-center justify-center mb-6">
+                <!-- Ícone Tesoura -->
+                <svg class="w-7 h-7 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <circle cx="6" cy="6" r="3" stroke-width="2"/>
+                  <circle cx="6" cy="18" r="3" stroke-width="2"/>
+                  <line x1="20" y1="4" x2="8.12" y2="15.88" stroke-width="2"/>
+                  <line x1="14.47" y1="14.48" x2="20" y2="20" stroke-width="2"/>
+                  <line x1="8.12" y1="8.12" x2="12" y2="12" stroke-width="2"/>
+                </svg>
+              </div>
+              <h3 class="font-display text-xl font-bold text-white uppercase mb-3">Corte Masculino</h3>
+              <p class="text-sm text-gray-300 leading-relaxed font-light mb-6">
+                Cuidado, precisão e atenção aos detalhes.
+              </p>
+            </div>
+            <div class="pt-6 border-t border-[#242424] flex items-center justify-between">
+              <span class="text-xs text-gray-400 uppercase tracking-wider">Especialidade</span>
+              <button type="button" class="text-xs font-bold text-[#D4AF37] hover:underline flex items-center space-x-1 open-agendamento-modal" data-open-agendamento-modal data-service="Corte Masculino">
+                <span>Agendar</span>
+                <span>→</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="premium-card rounded-2xl p-8 flex flex-col justify-between reveal-init" style="transition-delay: 150ms;">
+            <div>
+              <div class="w-14 h-14 rounded-xl bg-[#0D0D0D] border border-[#D4AF37]/30 flex items-center justify-center mb-6">
+                <!-- Ícone Navalha / Acabamento -->
+                <svg class="w-7 h-7 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.828 2.829a2 2 0 01-2.828 0l-1.415-1.414a2 2 0 010-2.829L9.879 9.88m4.242 4.242L9.88 9.88"/>
+                </svg>
+              </div>
+              <h3 class="font-display text-xl font-bold text-white uppercase mb-3">Estilo & Acabamento</h3>
+              <p class="text-sm text-gray-300 leading-relaxed font-light mb-6">
+                Acabamento cuidadoso para completar seu visual.
+              </p>
+            </div>
+            <div class="pt-6 border-t border-[#242424] flex items-center justify-between">
+              <span class="text-xs text-gray-400 uppercase tracking-wider">Alinhamento</span>
+              <button type="button" class="text-xs font-bold text-[#D4AF37] hover:underline flex items-center space-x-1 open-agendamento-modal" data-open-agendamento-modal data-service="Estilo & Acabamento">
+                <span>Agendar</span>
+                <span>→</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="premium-card rounded-2xl p-8 flex flex-col justify-between reveal-init" style="transition-delay: 300ms;">
+            <div>
+              <div class="w-14 h-14 rounded-xl bg-[#0D0D0D] border border-[#D4AF37]/30 flex items-center justify-center mb-6">
+                <!-- Ícone Experiência / Coroa -->
+                <svg class="w-7 h-7 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+                </svg>
+              </div>
+              <h3 class="font-display text-xl font-bold text-white uppercase mb-3">Experiência Personalizada</h3>
+              <p class="text-sm text-gray-300 leading-relaxed font-light mb-6">
+                Atendimento pensado para o seu estilo.
+              </p>
+            </div>
+            <div class="pt-6 border-t border-[#242424] flex items-center justify-between">
+              <span class="text-xs text-gray-400 uppercase tracking-wider">Exclusividade</span>
+              <button type="button" class="text-xs font-bold text-[#D4AF37] hover:underline flex items-center space-x-1 open-agendamento-modal" data-open-agendamento-modal data-service="Experiência Personalizada">
+                <span>Agendar</span>
+                <span>→</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Aviso Discreto Conforme Requisito -->
+        <div class="mt-12 text-center reveal-init">
+          <p class="text-xs text-gray-500 italic">
+            * Consulte a barbearia para confirmar serviços e valores.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. DIFERENCIAIS
+         ======================================================================== -->
+    <section id="diferenciais" class="py-20 bg-[#0D0D0D] border-t border-b border-[#242424]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-14 reveal-init">
+          <span class="text-xs font-bold text-[#D4AF37] uppercase tracking-[0.25em]">POR QUE NOS ESCOLHER</span>
+          <h2 class="font-display text-3xl sm:text-4xl font-black text-white uppercase mt-2">
+            NOSSOS DIFERENCIAIS
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Diferencial 1 -->
+          <div class="p-6 rounded-xl bg-[#151515] border border-[#242424] hover:border-[#D4AF37]/40 transition-colors reveal-init">
+            <div class="w-12 h-12 rounded-lg bg-[#050505] flex items-center justify-center text-[#D4AF37] font-bold text-xl mb-4 border border-[#242424]">
+              01
+            </div>
+            <h3 class="font-display text-lg font-bold text-white mb-2">Atendimento de qualidade</h3>
+            <p class="text-xs text-gray-400 leading-relaxed font-light">
+              Recepção atenciosa e dedicação genuína ao bem-estar e preferência de cada cliente.
+            </p>
+          </div>
+
+          <!-- Diferencial 2 -->
+          <div class="p-6 rounded-xl bg-[#151515] border border-[#242424] hover:border-[#D4AF37]/40 transition-colors reveal-init" style="transition-delay: 100ms;">
+            <div class="w-12 h-12 rounded-lg bg-[#050505] flex items-center justify-center text-[#D4AF37] font-bold text-xl mb-4 border border-[#242424]">
+              02
+            </div>
+            <h3 class="font-display text-lg font-bold text-white mb-2">Excelência no corte</h3>
+            <p class="text-xs text-gray-400 leading-relaxed font-light">
+              Técnica apurada, domínio de tesoura e máquinas para linhas limpas e modernas.
+            </p>
+          </div>
+
+          <!-- Diferencial 3 -->
+          <div class="p-6 rounded-xl bg-[#151515] border border-[#242424] hover:border-[#D4AF37]/40 transition-colors reveal-init" style="transition-delay: 200ms;">
+            <div class="w-12 h-12 rounded-lg bg-[#050505] flex items-center justify-center text-[#D4AF37] font-bold text-xl mb-4 border border-[#242424]">
+              03
+            </div>
+            <h3 class="font-display text-lg font-bold text-white mb-2">Ambiente agradável</h3>
+            <p class="text-xs text-gray-400 leading-relaxed font-light">
+              Espaço climatizado, confortável e descontraído, ideal para você relaxar.
+            </p>
+          </div>
+
+          <!-- Diferencial 4 -->
+          <div class="p-6 rounded-xl bg-[#151515] border border-[#242424] hover:border-[#D4AF37]/40 transition-colors reveal-init" style="transition-delay: 300ms;">
+            <div class="w-12 h-12 rounded-lg bg-[#050505] flex items-center justify-center text-[#D4AF37] font-bold text-xl mb-4 border border-[#242424]">
+              04
+            </div>
+            <h3 class="font-display text-lg font-bold text-white mb-2">Atenção aos detalhes</h3>
+            <p class="text-xs text-gray-400 leading-relaxed font-light">
+              Penteados, pezinhos e alinhamento milimétrico que fazem toda a diferença no resultado.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. AVALIAÇÕES (DEPOIMENTOS 100% REAIS)
+         ======================================================================== -->
+    <section id="avaliacoes" class="py-24 bg-[#050505] relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Header da Seção de Avaliações -->
+        <div class="text-center max-w-2xl mx-auto mb-16 reveal-init">
+          <span class="text-xs font-bold text-[#D4AF37] uppercase tracking-[0.25em]">DEPOIMENTOS REAIS</span>
+          <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-black text-white uppercase mt-2 mb-4">
+            O QUE NOSSOS CLIENTES DIZEM
+          </h2>
+          <div class="inline-flex items-center space-x-3 bg-[#151515] px-5 py-2 rounded-full border border-[#242424] mt-2">
+            <span class="text-[#D4AF37] font-bold text-base">5,0 ★</span>
+            <span class="text-gray-400 text-xs uppercase tracking-wider">4 avaliações no Google</span>
+          </div>
+        </div>
+
+        <!-- Grid de Depoimentos Reais Obrigatórios -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          
+          <!-- Depoimento 1: Juliano Maia De Souza -->
+          <div class="premium-card p-8 rounded-2xl flex flex-col justify-between reveal-init">
+            <div>
+              <div class="flex items-center space-x-1 text-yellow-500 mb-4">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+              </div>
+              <blockquote class="text-base text-gray-200 font-light italic leading-relaxed mb-6">
+                "Oferece excelência e atenção, quem corta com o Ruy a primeira vez, não deixa de cortar mais, nota 1000 tanto no serviço como no atendimento."
+              </blockquote>
+            </div>
+            <div class="flex items-center space-x-3 pt-4 border-t border-[#242424]">
+              <div class="w-10 h-10 rounded-full bg-[#242424] text-[#D4AF37] font-bold flex items-center justify-center text-sm font-display">
+                JM
+              </div>
+              <div>
+                <p class="text-sm font-bold text-white">Juliano Maia De Souza</p>
+                <p class="text-xs text-gray-500">Cliente Verificado no Google</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 2: James Rodrigues -->
+          <div class="premium-card p-8 rounded-2xl flex flex-col justify-between reveal-init" style="transition-delay: 150ms;">
+            <div>
+              <div class="flex items-center space-x-1 text-yellow-500 mb-4">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+              </div>
+              <blockquote class="text-base text-gray-200 font-light italic leading-relaxed mb-6">
+                "Uma experiência completa! Cortar o cabelo com o Ruy é muito mais do que um simples corte."
+              </blockquote>
+            </div>
+            <div class="flex items-center space-x-3 pt-4 border-t border-[#242424]">
+              <div class="w-10 h-10 rounded-full bg-[#242424] text-[#D4AF37] font-bold flex items-center justify-center text-sm font-display">
+                JR
+              </div>
+              <div>
+                <p class="text-sm font-bold text-white">James Rodrigues</p>
+                <p class="text-xs text-gray-500">Cliente Verificado no Google</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 3: Caio Henrique -->
+          <div class="premium-card p-8 rounded-2xl flex flex-col justify-between reveal-init">
+            <div>
+              <div class="flex items-center space-x-1 text-yellow-500 mb-4">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+              </div>
+              <blockquote class="text-base text-gray-200 font-light italic leading-relaxed mb-6">
+                "Recomendo demais! Além da qualidade impecável no corte, ainda possui um atendimento de qualidade e um ambiente extremamente agradável para todos."
+              </blockquote>
+            </div>
+            <div class="flex items-center space-x-3 pt-4 border-t border-[#242424]">
+              <div class="w-10 h-10 rounded-full bg-[#242424] text-[#D4AF37] font-bold flex items-center justify-center text-sm font-display">
+                CH
+              </div>
+              <div>
+                <p class="text-sm font-bold text-white">Caio Henrique</p>
+                <p class="text-xs text-gray-500">Cliente Verificado no Google</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 4: Italo Rafael (Sem texto inventado, com faixa de preço informada) -->
+          <div class="premium-card p-8 rounded-2xl flex flex-col justify-between reveal-init" style="transition-delay: 150ms;">
+            <div>
+              <div class="flex items-center space-x-1 text-yellow-500 mb-4">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+              </div>
+              <div class="my-3 p-4 rounded-xl bg-[#0D0D0D] border border-[#242424]">
+                <p class="text-xs uppercase tracking-wider text-gray-400 font-semibold mb-1">Faixa de preço mencionada em avaliação:</p>
+                <p class="font-display text-2xl font-bold text-[#D4AF37]">R$ 20–40</p>
+                <p class="text-[11px] text-gray-500 mt-1 italic">* Valores informados pelo cliente em avaliação no Google.</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-3 pt-4 border-t border-[#242424]">
+              <div class="w-10 h-10 rounded-full bg-[#242424] text-[#D4AF37] font-bold flex items-center justify-center text-sm font-display">
+                IR
+              </div>
+              <div>
+                <p class="text-sm font-bold text-white">Italo Rafael</p>
+                <p class="text-xs text-gray-500">Cliente Verificado no Google</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         7. GALERIA VISUAL
+         ======================================================================== -->
+    <section id="galeria" class="py-24 bg-[#0D0D0D] border-t border-b border-[#242424]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 reveal-init">
+          <span class="text-xs font-bold text-[#D4AF37] uppercase tracking-[0.25em]">ESTILO & AMBIENTE</span>
+          <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-black text-white uppercase mt-2 mb-4">
+            GALERIA VISUAL
+          </h2>
+          <p class="text-sm sm:text-base text-gray-400">
+            Inspirações de estilo, precisão nas lâminas e a energia autêntica da barbearia.
+          </p>
+        </div>
+
+        <!-- Grid de Galeria 6 Fotos -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Foto 1: Corte Masculino -->
+          <div class="gallery-item reveal-init" data-title="Corte Masculino de Alta Precisão">
+            <img src="assets/images/corte.jpg" alt="Corte Masculino Degradê" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="text-[10px] uppercase font-bold text-[#D4AF37] tracking-widest">Precisão</span>
+              <p class="font-display text-white font-bold text-base">Corte Masculino Moderno</p>
+            </div>
+          </div>
+
+          <!-- Foto 2: Fachada Real da Barbearia -->
+          <div class="gallery-item reveal-init" style="transition-delay: 100ms;" data-title="Fachada Oficial - Barbearia Ruy Costa">
+            <img src="assets/images/image_01.jpeg" alt="Fachada da Barbearia Ruy Costa" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="text-[10px] uppercase font-bold text-[#D4AF37] tracking-widest">Local</span>
+              <p class="font-display text-white font-bold text-base">Fachada Oficial em São Paulo</p>
+            </div>
+          </div>
+
+          <!-- Foto 3: Navalha Tradicional -->
+          <div class="gallery-item reveal-init" style="transition-delay: 200ms;" data-title="Navalha Tradicional & Toalha Quente">
+            <img src="assets/images/navalha.jpg" alt="Barbear clássico com navalha" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="text-[10px] uppercase font-bold text-[#D4AF37] tracking-widest">Tradição</span>
+              <p class="font-display text-white font-bold text-base">Navalha Tradicional</p>
+            </div>
+          </div>
+
+          <!-- Foto 4: Espaço Interno Real -->
+          <div class="gallery-item reveal-init" style="transition-delay: 300ms;" data-title="Espaço Interno Acolhedor">
+            <img src="assets/images/interno.jpeg" alt="Espaço Interno Barbearia" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="text-[10px] uppercase font-bold text-[#D4AF37] tracking-widest">Ambiente</span>
+              <p class="font-display text-white font-bold text-base">Interior Autêntico & Confortável</p>
+            </div>
+          </div>
+
+          <!-- Foto 5: Alinhamento de Barba -->
+          <div class="gallery-item reveal-init" style="transition-delay: 400ms;" data-title="Alinhamento e Cuidado com Barba">
+            <img src="assets/images/barba.jpg" alt="Alinhamento de barba" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="text-[10px] uppercase font-bold text-[#D4AF37] tracking-widest">Estilo</span>
+              <p class="font-display text-white font-bold text-base">Alinhamento & Barboterapia</p>
+            </div>
+          </div>
+
+          <!-- Foto 6: Ferramentas do Ofício -->
+          <div class="gallery-item reveal-init" style="transition-delay: 500ms;" data-title="Ferramentas e Equipamentos Profissionais">
+            <img src="assets/images/ferramentas.jpg" alt="Ferramentas profissionais de barbearia" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="text-[10px] uppercase font-bold text-[#D4AF37] tracking-widest">Equipamentos</span>
+              <p class="font-display text-white font-bold text-base">Ferramentas de Alto Padrão</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         8. LOCALIZAÇÃO
+         ======================================================================== -->
+    <section id="localizacao" class="py-24 bg-[#050505] relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          
+          <!-- Informações de Endereço -->
+          <div class="reveal-init">
+            <span class="text-xs font-bold text-[#D4AF37] uppercase tracking-[0.25em]">COMO CHEGAR</span>
+            <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-black text-white uppercase mt-2 mb-6">
+              ONDE ESTAMOS
+            </h2>
+            
+            <div class="space-y-6 mb-8">
+              <!-- Endereço -->
+              <div class="flex items-start space-x-4">
+                <div class="w-10 h-10 rounded-lg bg-[#151515] border border-[#242424] flex items-center justify-center text-[#D4AF37] shrink-0 mt-1">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-sm font-bold text-white uppercase tracking-wider">Endereço</h3>
+                  <p class="text-gray-300 font-light mt-0.5">Av. Miguel Estefno, 2014</p>
+                  <p class="text-gray-400 text-xs">Vila da Saúde, São Paulo - SP</p>
+                  <p class="text-gray-500 text-xs">CEP: 04301-001</p>
+                </div>
+              </div>
+
+              <!-- Código Plus -->
+              <div class="flex items-start space-x-4">
+                <div class="w-10 h-10 rounded-lg bg-[#151515] border border-[#242424] flex items-center justify-center text-[#D4AF37] shrink-0 mt-1">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-sm font-bold text-white uppercase tracking-wider">Código Plus</h3>
+                  <p class="text-gray-300 font-light mt-0.5 text-sm">999C+PW Vila da Saúde, São Paulo - SP</p>
+                </div>
+              </div>
+
+              <!-- Telefone e WhatsApp -->
+              <div class="flex items-start space-x-4">
+                <div class="w-10 h-10 rounded-lg bg-[#151515] border border-[#242424] flex items-center justify-center text-[#D4AF37] shrink-0 mt-1">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-sm font-bold text-white uppercase tracking-wider">Telefone & WhatsApp</h3>
+                  <p class="text-gray-300 font-light mt-0.5 text-sm">(11) 98702-6977</p>
+                </div>
+              </div>
+
+              <!-- Instagram -->
+              <div class="flex items-start space-x-4">
+                <div class="w-10 h-10 rounded-lg bg-[#151515] border border-[#242424] flex items-center justify-center text-[#D4AF37] shrink-0 mt-1">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="2"/>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" stroke-width="2"/>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-sm font-bold text-white uppercase tracking-wider">Instagram</h3>
+                  <a href="https://instagram.com/Ruy_barber_c" target="_blank" rel="noopener noreferrer" class="text-[#D4AF37] hover:underline text-sm font-medium">@Ruy_barber_c</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Botão Abrir no Google Maps -->
+            <div>
+              <a href="https://www.google.com/maps/search/?api=1&query=Av.+Miguel+Estefno,+2014+-+Vila+da+Sa%C3%BAde,+S%C3%A3o+Paulo+-+SP" target="_blank" rel="noopener noreferrer" class="btn-gold px-8 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider inline-flex items-center space-x-2">
+                <span>ABRIR NO GOOGLE MAPS</span>
+                <span>↗</span>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Mapa Interativo -->
+          <div class="relative rounded-2xl overflow-hidden border border-[#242424] shadow-2xl h-[420px] reveal-init" style="transition-delay: 200ms;">
+            <iframe 
+              src="https://maps.google.com/maps?q=Av.+Miguel+Estefno,+2014+-+Vila+da+Sa%C3%BAde,+S%C3%A3o+Paulo+-+SP&t=&z=16&ie=UTF8&iwloc=&output=embed"
+              class="w-full h-full border-0 filter invert-[90%] hue-rotate-180 contrast-125"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Localização Barbearia Ruy Costa">
+            </iframe>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         9. CONTATO / AGENDAMENTO VIA WHATSAPP
+         ======================================================================== -->
+    <section id="contato" class="py-24 bg-[#0D0D0D] border-t border-[#242424] relative">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-12 reveal-init">
+          <span class="text-xs font-bold text-[#D4AF37] uppercase tracking-[0.25em]">RESERVE SEU HORÁRIO</span>
+          <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-black text-white uppercase mt-2 mb-4">
+            VAMOS CUIDAR DO SEU ESTILO?
+          </h2>
+          <p class="text-sm sm:text-base text-gray-300">
+            Entre em contato e consulte disponibilidade para seu próximo atendimento.
+          </p>
+        </div>
+
+        <!-- Card do Formulário -->
+        <div class="premium-card p-6 sm:p-10 rounded-2xl border border-[#242424] shadow-2xl reveal-init">
+          
+          <form id="form-agendamento" class="space-y-6" novalidate>
+            
+            <!-- Mensagem de Feedback -->
+            <div id="form-feedback" class="hidden"></div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              
+              <!-- Nome -->
+              <div>
+                <label for="form-nome" class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-2">
+                  Seu Nome <span class="text-[#D4AF37]">*</span>
+                </label>
+                <input type="text" id="form-nome" name="nome" required placeholder="Como podemos te chamar?" class="form-input w-full px-4 py-3 rounded-lg text-sm placeholder-gray-600">
+              </div>
+
+              <!-- Telefone -->
+              <div>
+                <label for="form-telefone" class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-2">
+                  Telefone / WhatsApp <span class="text-[#D4AF37]">*</span>
+                </label>
+                <input type="tel" id="form-telefone" name="telefone" required placeholder="(11) 98702-6977" class="form-input w-full px-4 py-3 rounded-lg text-sm placeholder-gray-600">
+              </div>
+
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              
+              <!-- Serviço Desejado -->
+              <div>
+                <label for="form-servico" class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-2">
+                  Serviço Desejado <span class="text-[#D4AF37]">*</span>
+                </label>
+                <select id="form-servico" name="servico" required class="form-input w-full px-4 py-3 rounded-lg text-sm">
+                  <option value="" disabled selected>Selecione um serviço</option>
+                  <option value="Corte Masculino">Corte Masculino</option>
+                  <option value="Estilo & Acabamento">Estilo & Acabamento</option>
+                  <option value="Experiência Personalizada">Experiência Personalizada</option>
+                  <option value="Outro Serviço">Outro / A combinar</option>
+                </select>
+              </div>
+
+              <!-- Data Desejada -->
+              <div>
+                <label for="form-data" class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-2">
+                  Data Desejada
+                </label>
+                <input type="date" id="form-data" name="data" class="form-input w-full px-4 py-3 rounded-lg text-sm">
+              </div>
+
+              <!-- Horário Desejado -->
+              <div>
+                <label for="form-horario" class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-2">
+                  Horário Desejado
+                </label>
+                <select id="form-horario" name="horario" class="form-input w-full px-4 py-3 rounded-lg text-sm">
+                  <option value="A combinar" selected>A combinar</option>
+                  <option value="Período da Manhã (09h às 12h)">Manhã (09h - 12h)</option>
+                  <option value="Período da Tarde (13h às 17h)">Tarde (13h - 17h)</option>
+                  <option value="Fim de Tarde / Noite (17h às 20h)">Noite (17h - 20h)</option>
+                </select>
+              </div>
+
+            </div>
+
+            <!-- Mensagem -->
+            <div>
+              <label for="form-mensagem" class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-2">
+                Mensagem Adicional (Opcional)
+              </label>
+              <textarea id="form-mensagem" name="mensagem" rows="3" placeholder="Alguma preferência ou dúvida?" class="form-input w-full px-4 py-3 rounded-lg text-sm placeholder-gray-600 resize-none"></textarea>
+            </div>
+
+            <!-- Botão Enviar WhatsApp -->
+            <div>
+              <button type="submit" id="btn-submit-agendamento" class="btn-gold w-full py-4 rounded-xl text-sm font-bold uppercase tracking-wider flex items-center justify-center space-x-3 cursor-pointer">
+                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                </svg>
+                <span>ENVIAR PELO WHATSAPP</span>
+              </button>
+            </div>
+
+            <p class="text-[11px] text-gray-500 text-center">
+              Ao clicar, você será redirecionado diretamente para o WhatsApp oficial da Barbearia Ruy Costa com sua solicitação pré-preenchida.
+            </p>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       10. BOTÃO FLUTUANTE DO WHATSAPP
+       ======================================================================== -->
+  <aside aria-label="Atendimento rápido pelo WhatsApp" class="fixed bottom-6 right-6 z-50">
+    <div class="relative group">
+      <!-- Tooltip -->
+      <span class="absolute right-full mr-3 top-1/2 -translate-y-1/2 px-3 py-1.5 bg-[#151515] border border-[#242424] text-xs font-semibold text-white rounded-lg shadow-xl whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+        Fale conosco pelo WhatsApp
+      </span>
+
+      <!-- Botão circular -->
+      <a href="https://wa.me/5511987026977" target="_blank" rel="noopener noreferrer" aria-label="Abrir conversa no WhatsApp" class="whatsapp-pulse flex items-center justify-center w-14 h-14 bg-[#25D366] hover:bg-[#20ba59] text-white rounded-full shadow-2xl transition-transform hover:scale-110">
+        <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24">
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+        </svg>
+      </a>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       11. FOOTER
+       ======================================================================== -->
+  <footer class="bg-[#050505] border-t border-[#242424] py-14">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-[#1c1c1c]">
+        
+        <!-- Coluna 1: Marca & Logo -->
+        <div class="space-y-4 md:col-span-2">
+          <div class="flex items-center space-x-3">
+            <img src="assets/images/logo.jpeg" alt="Logo Barbearia Ruy Costa" class="w-12 h-12 rounded-full border border-[#D4AF37]/50">
+            <div>
+              <p class="font-display font-black text-xl text-white tracking-wider">BARBEARIA RUY COSTA</p>
+              <p class="text-xs text-[#D4AF37] tracking-[0.2em] font-semibold">DESDE 2013</p>
+            </div>
+          </div>
+          <p class="text-xs text-gray-400 max-w-md leading-relaxed font-light">
+            Tradição, estilo e cuidado masculino com atendimento exclusivo na Vila da Saúde, São Paulo.
+          </p>
+          <div class="pt-2">
+            <a href="https://instagram.com/Ruy_barber_c" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-2 text-xs text-gray-300 hover:text-[#D4AF37] transition-colors">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="2"/>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" stroke-width="2"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2"/>
+              </svg>
+              <span>@Ruy_barber_c</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Coluna 2: Navegação Rápida -->
+        <div>
+          <h4 class="text-xs font-bold text-white uppercase tracking-widest mb-4">Navegação</h4>
+          <ul class="space-y-2 text-xs text-gray-400">
+            <li><a href="#inicio" class="hover:text-[#D4AF37] transition-colors">Início</a></li>
+            <li><a href="#sobre" class="hover:text-[#D4AF37] transition-colors">Sobre</a></li>
+            <li><a href="#servicos" class="hover:text-[#D4AF37] transition-colors">Serviços</a></li>
+            <li><a href="#avaliacoes" class="hover:text-[#D4AF37] transition-colors">Avaliações</a></li>
+            <li><a href="#galeria" class="hover:text-[#D4AF37] transition-colors">Galeria</a></li>
+            <li><a href="#localizacao" class="hover:text-[#D4AF37] transition-colors">Localização</a></li>
+            <li><a href="#contato" class="hover:text-[#D4AF37] transition-colors">Contato</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Localização & Contato -->
+        <div>
+          <h4 class="text-xs font-bold text-white uppercase tracking-widest mb-4">Contato</h4>
+          <p class="text-xs text-gray-400 leading-relaxed">
+            Av. Miguel Estefno, 2014<br>
+            Vila da Saúde, São Paulo - SP<br>
+            CEP: 04301-001
+          </p>
+          <p class="text-xs text-white font-semibold mt-3">
+            Tel: (11) 98702-6977
+          </p>
+          <a href="https://wa.me/5511987026977" target="_blank" rel="noopener noreferrer" class="inline-block mt-3 text-xs text-[#D4AF37] hover:underline font-semibold">
+            Conversar no WhatsApp →
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Copyright -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500">
+        <p>© 2026 Barbearia Ruy Costa. Todos os direitos reservados.</p>
+        <p class="mt-2 sm:mt-0">Desenvolvido com precisão e elegância.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL DE SOLICITAÇÃO DE AGENDAMENTO (HORÁRIOS SUGERIDOS)
+       ======================================================================== -->
+  <div id="modal-agendamento" class="booking-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-agendamento-title" aria-hidden="true">
+    <div class="booking-modal-container">
+      
+      <!-- Cabeçalho do Modal -->
+      <div class="booking-modal-header">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-full bg-[#151515] border border-[#D4AF37]/40 flex items-center justify-center text-[#D4AF37]">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke-width="2"/>
+              <line x1="16" y1="2" x2="16" y2="6" stroke-width="2"/>
+              <line x1="8" y1="2" x2="8" y2="6" stroke-width="2"/>
+              <line x1="3" y1="10" x2="21" y2="10" stroke-width="2"/>
+            </svg>
+          </div>
+          <div>
+            <h3 id="modal-agendamento-title" class="font-display text-lg sm:text-xl font-black text-white tracking-wide uppercase">
+              Solicitar Horário
+            </h3>
+            <p class="text-[11px] text-gray-400">Barbearia Ruy Costa • Vila da Saúde</p>
+          </div>
+        </div>
+
+        <button id="modal-agendamento-close" type="button" aria-label="Fechar janela" class="p-2 text-gray-400 hover:text-white rounded-lg hover:bg-white/10 transition-colors">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Barra de Progresso / Stepper -->
+      <div class="booking-stepper">
+        <div class="step-indicator active" data-step="1">
+          <span class="step-num">1</span>
+          <span class="step-label">Data</span>
+        </div>
+        <div class="step-line" data-step-line="1"></div>
+        <div class="step-indicator" data-step="2">
+          <span class="step-num">2</span>
+          <span class="step-label">Horário</span>
+        </div>
+        <div class="step-line" data-step-line="2"></div>
+        <div class="step-indicator" data-step="3">
+          <span class="step-num">3</span>
+          <span class="step-label">Dados</span>
+        </div>
+        <div class="step-line" data-step-line="3"></div>
+        <div class="step-indicator" data-step="4">
+          <span class="step-num">4</span>
+          <span class="step-label">Resumo</span>
+        </div>
+      </div>
+
+      <!-- Mensagens de Alerta / Validação Elegantes -->
+      <div id="booking-alert" class="hidden"></div>
+
+      <!-- Corpo do Modal / Etapas -->
+      <div class="booking-modal-body">
+        
+        <!-- ETAPA 1: ESCOLHA DA DATA -->
+        <div id="step-1" class="booking-step active">
+          <div class="text-center mb-5">
+            <span class="text-[11px] font-bold text-[#D4AF37] uppercase tracking-[0.2em]">ETAPA 1</span>
+            <h4 class="font-display text-xl font-bold text-white uppercase mt-0.5">ESCOLHA UMA DATA</h4>
+            <p class="text-xs text-gray-400 mt-1">Selecione o dia desejado para verificar os horários sugeridos.</p>
+          </div>
+
+          <!-- Componente de Calendário Visual Moderno -->
+          <div class="calendar-wrapper">
+            <div class="calendar-header">
+              <button type="button" id="cal-prev-month" aria-label="Mês anterior" class="cal-nav-btn">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                </svg>
+              </button>
+              <h5 id="cal-month-title" class="font-display text-sm font-bold text-white tracking-wider uppercase"></h5>
+              <button type="button" id="cal-next-month" aria-label="Próximo mês" class="cal-nav-btn">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Dias da Semana -->
+            <div class="calendar-weekdays">
+              <span>Dom</span><span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>Sáb</span>
+            </div>
+
+            <!-- Grid de Dias do Mês -->
+            <div id="calendar-grid" class="calendar-grid"></div>
+          </div>
+
+          <!-- Legenda do Calendário -->
+          <div class="flex items-center justify-center space-x-4 mt-4 text-[11px] text-gray-400">
+            <span class="flex items-center space-x-1.5">
+              <span class="w-2.5 h-2.5 rounded-full bg-[#151515] border border-white/20"></span>
+              <span>Disponível</span>
+            </span>
+            <span class="flex items-center space-x-1.5">
+              <span class="w-2.5 h-2.5 rounded-full bg-[#D4AF37]"></span>
+              <span>Selecionado</span>
+            </span>
+            <span class="flex items-center space-x-1.5">
+              <span class="w-2.5 h-2.5 rounded-full bg-[#151515] opacity-25"></span>
+              <span>Indisponível</span>
+            </span>
+          </div>
+
+          <!-- Botão Avançar -->
+          <div class="mt-6 flex justify-end">
+            <button type="button" id="btn-goto-step-2" class="btn-gold px-6 py-3 rounded-xl text-xs font-bold uppercase tracking-wider disabled:opacity-40 disabled:pointer-events-none" disabled>
+              Continuar para Horários →
+            </button>
+          </div>
+        </div>
+
+        <!-- ETAPA 2: ESCOLHA DO HORÁRIO -->
+        <div id="step-2" class="booking-step">
+          <div class="text-center mb-5">
+            <span class="text-[11px] font-bold text-[#D4AF37] uppercase tracking-[0.2em]">ETAPA 2</span>
+            <h4 class="font-display text-xl font-bold text-white uppercase mt-0.5">ESCOLHA UM HORÁRIO</h4>
+            <div class="inline-flex items-center space-x-2 mt-2 px-3 py-1 rounded-full bg-[#151515] border border-[#242424]">
+              <span class="text-xs text-gray-300 font-medium" id="selected-date-badge">Data selecionada</span>
+            </div>
+          </div>
+
+          <!-- Grid de Horários Sugeridos -->
+          <div id="slots-container" class="grid grid-cols-3 sm:grid-cols-4 gap-2.5 my-4 max-h-[250px] overflow-y-auto pr-1"></div>
+
+          <!-- Aviso de Sugestão Obrigatório -->
+          <div class="p-3.5 rounded-xl bg-[#151515] border border-[#242424] mt-5">
+            <p class="text-xs text-gray-300 flex items-start space-x-2">
+              <span class="text-[#D4AF37] text-base leading-none">ℹ</span>
+              <span><strong>Horários sujeitos à confirmação pelo WhatsApp.</strong> Os horários exibidos são sugestões de disponibilidade da barbearia.</span>
+            </p>
+          </div>
+
+          <!-- Botões Navegação -->
+          <div class="mt-6 flex items-center justify-between">
+            <button type="button" id="btn-back-to-step-1" class="btn-outline-gold px-5 py-2.5 rounded-xl text-xs font-semibold uppercase tracking-wider">
+              ← Alterar Data
+            </button>
+            <button type="button" id="btn-goto-step-3" class="btn-gold px-6 py-3 rounded-xl text-xs font-bold uppercase tracking-wider disabled:opacity-40 disabled:pointer-events-none" disabled>
+              Continuar para Dados →
+            </button>
+          </div>
+        </div>
+
+        <!-- ETAPA 3: DADOS DO CLIENTE -->
+        <div id="step-3" class="booking-step">
+          <div class="text-center mb-5">
+            <span class="text-[11px] font-bold text-[#D4AF37] uppercase tracking-[0.2em]">ETAPA 3</span>
+            <h4 class="font-display text-xl font-bold text-white uppercase mt-0.5">SEUS DADOS</h4>
+            <p class="text-xs text-gray-400 mt-1">Preencha suas informações para personalizarmos o seu atendimento.</p>
+          </div>
+
+          <div class="space-y-4">
+            <!-- Nome -->
+            <div>
+              <label for="booking-nome" class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-1.5">
+                Seu Nome Completo <span class="text-[#D4AF37]">*</span>
+              </label>
+              <input type="text" id="booking-nome" placeholder="Ex: João da Silva" class="form-input w-full px-4 py-3 rounded-xl text-sm placeholder-gray-600">
+            </div>
+
+            <!-- Telefone -->
+            <div>
+              <label for="booking-telefone" class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-1.5">
+                Telefone / WhatsApp <span class="text-[#D4AF37]">*</span>
+              </label>
+              <input type="tel" id="booking-telefone" placeholder="(11) 99999-9999" class="form-input w-full px-4 py-3 rounded-xl text-sm placeholder-gray-600">
+            </div>
+
+            <!-- Serviço Desejado -->
+            <div>
+              <label for="booking-servico" class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-1.5">
+                Serviço Desejado
+              </label>
+              <select id="booking-servico" class="form-input w-full px-4 py-3 rounded-xl text-sm">
+                <option value="Corte Masculino" selected>Corte Masculino</option>
+                <option value="Estilo & Acabamento">Estilo & Acabamento</option>
+                <option value="Experiência Personalizada">Experiência Personalizada</option>
+                <option value="Informar pelo WhatsApp">Informar pelo WhatsApp</option>
+              </select>
+            </div>
+
+            <!-- Observação -->
+            <div>
+              <label for="booking-obs" class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-1.5">
+                Observação (Opcional)
+              </label>
+              <textarea id="booking-obs" rows="2" placeholder="Ex: Alguma preferência de estilo ou detalhe adicional" class="form-input w-full px-4 py-2.5 rounded-xl text-sm placeholder-gray-600 resize-none"></textarea>
+            </div>
+          </div>
+
+          <!-- Botões Navegação -->
+          <div class="mt-6 flex items-center justify-between">
+            <button type="button" id="btn-back-to-step-2" class="btn-outline-gold px-5 py-2.5 rounded-xl text-xs font-semibold uppercase tracking-wider">
+              ← Voltar
+            </button>
+            <button type="button" id="btn-goto-step-4" class="btn-gold px-6 py-3 rounded-xl text-xs font-bold uppercase tracking-wider">
+              Conferir Resumo →
+            </button>
+          </div>
+        </div>
+
+        <!-- ETAPA 4: RESUMO DA SOLICITAÇÃO -->
+        <div id="step-4" class="booking-step">
+          <div class="text-center mb-5">
+            <span class="text-[11px] font-bold text-[#D4AF37] uppercase tracking-[0.2em]">ETAPA 4</span>
+            <h4 class="font-display text-xl font-bold text-white uppercase mt-0.5">RESUMO DA SOLICITAÇÃO</h4>
+            <p class="text-xs text-gray-400 mt-1">Confira os detalhes antes de enviar para o WhatsApp.</p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-[#151515] border border-[#242424] space-y-3.5">
+            <div class="flex justify-between items-center pb-2.5 border-b border-white/5">
+              <span class="text-xs text-gray-400 uppercase tracking-wider">Data:</span>
+              <span id="summary-data" class="font-bold text-white text-sm">--/--/----</span>
+            </div>
+            <div class="flex justify-between items-center pb-2.5 border-b border-white/5">
+              <span class="text-xs text-gray-400 uppercase tracking-wider">Horário:</span>
+              <span id="summary-horario" class="font-bold text-[#D4AF37] text-sm font-display">--:--</span>
+            </div>
+            <div class="flex justify-between items-center pb-2.5 border-b border-white/5">
+              <span class="text-xs text-gray-400 uppercase tracking-wider">Nome:</span>
+              <span id="summary-nome" class="font-medium text-white text-sm">--</span>
+            </div>
+            <div class="flex justify-between items-center pb-2.5 border-b border-white/5">
+              <span class="text-xs text-gray-400 uppercase tracking-wider">Telefone:</span>
+              <span id="summary-telefone" class="font-medium text-white text-sm">--</span>
+            </div>
+            <div class="flex justify-between items-center pb-2.5 border-b border-white/5">
+              <span class="text-xs text-gray-400 uppercase tracking-wider">Serviço:</span>
+              <span id="summary-servico" class="font-medium text-white text-sm">--</span>
+            </div>
+            <div id="summary-obs-row" class="flex justify-between items-start pt-1">
+              <span class="text-xs text-gray-400 uppercase tracking-wider">Observação:</span>
+              <span id="summary-obs" class="font-light text-gray-300 text-xs max-w-[60%] text-right italic">Nenhuma</span>
+            </div>
+          </div>
+
+          <!-- Mensagem Clara Obrigatória -->
+          <div class="p-4 rounded-xl bg-[#0D0D0D] border border-[#D4AF37]/30 my-5 text-center">
+            <p class="text-xs text-gray-300 leading-relaxed">
+              ⚠️ <strong>Este horário será solicitado pelo WhatsApp e estará sujeito à confirmação da Barbearia Ruy Costa.</strong>
+            </p>
+          </div>
+
+          <!-- Botões Ação -->
+          <div class="flex flex-col sm:flex-row items-center gap-3">
+            <button type="button" id="btn-back-to-step-3" class="btn-outline-gold w-full sm:w-auto px-5 py-3 rounded-xl text-xs font-semibold uppercase tracking-wider">
+              ← Editar Dados
+            </button>
+            <button type="button" id="btn-submit-whatsapp" class="btn-gold w-full sm:flex-1 py-3.5 rounded-xl text-xs font-bold uppercase tracking-wider flex items-center justify-center space-x-2">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+              <span>SOLICITAR PELO WHATSAPP</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- ETAPA 5: APÓS O ENVIO (INFORMATIVA) -->
+        <div id="step-5" class="booking-step">
+          <div class="text-center py-6">
+            <div class="w-16 h-16 rounded-full bg-[#151515] border border-emerald-500/50 text-emerald-400 flex items-center justify-center mx-auto mb-4 text-2xl">
+              ✓
+            </div>
+            <h4 class="font-display text-2xl font-black text-white uppercase mb-2">SOLICITAÇÃO ENVIADA</h4>
+            <p class="text-sm text-gray-300 max-w-sm mx-auto mb-1">
+              Seu pedido de horário foi encaminhado pelo WhatsApp.
+            </p>
+            <p class="text-xs text-[#D4AF37] font-semibold mb-6">
+              Agora aguarde a confirmação da Barbearia Ruy Costa.
+            </p>
+
+            <div class="p-4 rounded-xl bg-[#151515] border border-[#242424] max-w-xs mx-auto mb-6 text-left text-xs space-y-2">
+              <div class="flex justify-between">
+                <span class="text-gray-400">Data solicitada:</span>
+                <span id="sent-data" class="font-bold text-white"></span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-gray-400">Horário solicitado:</span>
+                <span id="sent-horario" class="font-bold text-[#D4AF37]"></span>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-center space-x-3">
+              <button type="button" id="btn-modal-concluir" class="btn-gold px-8 py-3 rounded-xl text-xs font-bold uppercase tracking-wider">
+                Fechar Janela
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL LIGHTBOX DA GALERIA
+       ======================================================================== -->
+  <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-modal="true" aria-label="Visualizador de Imagem">
+    <button id="lightbox-close" type="button" aria-label="Fechar visualizador" class="absolute top-6 right-6 text-white hover:text-[#D4AF37] p-2 text-3xl font-light focus:outline-none">
+      &times;
+    </button>
+    <div class="text-center max-w-4xl max-h-[90vh] flex flex-col items-center">
+      <img id="lightbox-img" src="" alt="" class="lightbox-content mb-3">
+      <p id="lightbox-caption" class="text-sm font-display text-gray-300 tracking-wide"></p>
+    </div>
+  </div>
+
+  <!-- Script Principal -->
+  <script src="js/script.js"></script>
+</body>
+</html>
